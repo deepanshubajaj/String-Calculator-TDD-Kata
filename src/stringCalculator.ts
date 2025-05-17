@@ -1,11 +1,21 @@
 export function add(numbers: string): number {
-    // If the string is empty
-    if (numbers === "") return 0;
-  
-    // Splitting the string by commas, and converting each part to a number, and sum them
-    return numbers
-      .split(/,|\n/)               
-      .map((num) => parseInt(num, 10))
-      .reduce((sum, num) => sum + num, 0);  
+  if (numbers === "") return 0;
+
+  let delimiterRegex = /,|\n/; // default delimiters
+  let numberString = numbers;
+
+  // Check for custom delimiter
+  if (numbers.startsWith("//")) {
+    const match = numbers.match(/^\/\/(.)\n(.*)/);
+    if (match) {
+      const [, customDelimiter, rest] = match;
+      delimiterRegex = new RegExp(`[${customDelimiter}\n]`);
+      numberString = rest;
+    }
   }
-  
+
+  return numberString
+    .split(delimiterRegex)
+    .map((num) => parseInt(num, 10))
+    .reduce((sum, num) => sum + num, 0);
+}
