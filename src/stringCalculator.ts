@@ -4,7 +4,7 @@ export function add(numbers: string): number {
   
     // Splitting the string by commas, and converting each part to a number, and sum them
     return numbers
-      .split(",")               
+      .split(/,|\n/)               
       .map((num) => parseInt(num, 10))
       .reduce((sum, num) => sum + num, 0);  
   }
