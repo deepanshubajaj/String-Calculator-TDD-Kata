@@ -4,13 +4,23 @@ export function add(numbers: string): number {
   let delimiterRegex = /,|\n/;
   let numberString = numbers;
 
-  // Check for custom delimiter
+  // Check for custom delimiter format
   if (numbers.startsWith("//")) {
-    const match = numbers.match(/^\/\/(.)\n(.*)/);
-    if (match) {
-      const [, customDelimiter, rest] = match;
-      delimiterRegex = new RegExp(`[${customDelimiter}\n]`);
+    const customDelimiterMatch = numbers.match(/^\/\/\[(.+?)\]\n(.*)/);
+    if (customDelimiterMatch) {
+      const [, customDelimiter, rest] = customDelimiterMatch;
+      // Escape special RegExp characters in delimiter
+      const escapedDelimiter = customDelimiter.replace(/[-[\]/{}()*+?.\\^$|]/g, '\\$&');
+      delimiterRegex = new RegExp(`${escapedDelimiter}|\n`);
       numberString = rest;
+    } else {
+      // fallback to single character custom delimiter (e.g. //;\n1;2)
+      const match = numbers.match(/^\/\/(.)\n(.*)/);
+      if (match) {
+        const [, customDelimiter, rest] = match;
+        delimiterRegex = new RegExp(`[${customDelimiter}\n]`);
+        numberString = rest;
+      }
     }
   }
 
@@ -24,6 +34,6 @@ export function add(numbers: string): number {
   }
 
   return numList
-    .filter(n => n <= 1000) //ignore numbers > 1000
+    .filter(n => n <= 1000)
     .reduce((sum, num) => sum + num, 0);
 }
