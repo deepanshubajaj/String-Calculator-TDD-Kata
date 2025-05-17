@@ -48,3 +48,11 @@ test('supports multiple custom delimiters', () => {
 test('supports multiple custom delimiters with longer length', () => {
   expect(add("//[***][#][%]\n1***2#3%4")).toBe(10);
 });
+
+test('supports multiple delimiters with length greater than one', () => {
+  expect(add("//[***][%%]\n1***2%%3")).toBe(6);
+});
+
+test('supports multiple custom delimiters of varying lengths', () => {
+  expect(add("//[***][%%][@]\n1***2%%3@4")).toBe(10);
+});
