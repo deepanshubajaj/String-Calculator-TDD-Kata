@@ -1,7 +1,7 @@
 export function add(numbers: string): number {
   if (numbers === "") return 0;
 
-  let delimiterRegex = /,|\n/; // default delimiters
+  let delimiterRegex = /,|\n/;
   let numberString = numbers;
 
   // Check for custom delimiter
@@ -14,8 +14,14 @@ export function add(numbers: string): number {
     }
   }
 
-  return numberString
+  const numList = numberString
     .split(delimiterRegex)
-    .map((num) => parseInt(num, 10))
-    .reduce((sum, num) => sum + num, 0);
+    .map((num) => parseInt(num, 10));
+
+  const negatives = numList.filter(n => n < 0);
+  if (negatives.length > 0) {
+    throw new Error(`negative numbers not allowed: ${negatives.join(", ")}`);
+  }
+
+  return numList.reduce((sum, num) => sum + num, 0);
 }

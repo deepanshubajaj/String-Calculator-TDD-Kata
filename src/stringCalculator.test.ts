@@ -23,3 +23,11 @@ test('handles new lines between numbers', () => {
 test('supports custom single-character delimiter', () => {
   expect(add("//;\n1;2")).toBe(3);
 });
+
+test('throws an exception when a negative number is used', () => {
+  expect(() => add("1,-2,3")).toThrow("negative numbers not allowed: -2");
+});
+
+test('shows all negative numbers in the exception message', () => {
+  expect(() => add("-1,2,-3")).toThrow("negative numbers not allowed: -1, -3");
+});
