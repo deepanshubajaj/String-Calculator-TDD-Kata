@@ -4,17 +4,20 @@ export function add(numbers: string): number {
   let delimiterRegex = /,|\n/;
   let numberString = numbers;
 
-  // Check for custom delimiter format
+  // Check for custom delimiters
   if (numbers.startsWith("//")) {
-    const customDelimiterMatch = numbers.match(/^\/\/\[(.+?)\]\n(.*)/);
-    if (customDelimiterMatch) {
-      const [, customDelimiter, rest] = customDelimiterMatch;
-      // Escape special RegExp characters in delimiter
-      const escapedDelimiter = customDelimiter.replace(/[-[\]/{}()*+?.\\^$|]/g, '\\$&');
-      delimiterRegex = new RegExp(`${escapedDelimiter}|\n`);
-      numberString = rest;
+    const multiDelimiterMatch = numbers.match(/^\/\/(\[.+\])+\n(.*)/);
+    if (multiDelimiterMatch) {
+      const delimitersPart = numbers.slice(2, numbers.indexOf('\n'));
+      numberString = numbers.slice(numbers.indexOf('\n') + 1);
+
+      const delimiters = [...delimitersPart.matchAll(/\[([^\]]+)\]/g)].map(m => m[1]);
+      const escapedDelimiters = delimiters.map(d =>
+        d.replace(/[-[\]/{}()*+?.\\^$|]/g, '\\$&') // escape RegExp chars
+      );
+      delimiterRegex = new RegExp(escapedDelimiters.join('|') + '|\n');
     } else {
-      // fallback to single character custom delimiter (e.g. //;\n1;2)
+      // Single custom delimiter fallback
       const match = numbers.match(/^\/\/(.)\n(.*)/);
       if (match) {
         const [, customDelimiter, rest] = match;
