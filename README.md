@@ -48,8 +48,8 @@ Each enhancement is introduced via a failing test ➡️ implementation ➡️ r
 
 src/
 ├── calculator/
-│ ├── stringCalculator.ts // Core logic
-│ └── stringCalculator.test.ts // Unit tests (Jest)
+│   ├── stringCalculator.ts        // Core logic
+│   └── stringCalculator.test.ts   // Unit tests (Jest)
 ├── App.tsx
 └── ...
 
@@ -365,6 +365,6 @@ You are free to use this project for personal, educational, or commercial purpos
 
 ---
 
-## 📃 Contact:
+## 📩 Contact:
 
 You can reach out to me [here](https://contact-form-react-sepia.vercel.app/).
