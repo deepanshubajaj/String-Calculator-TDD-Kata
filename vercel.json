@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build",
-        "installCommand": "npm install",
-        "buildCommand": "npm run build"
-      }
-    }
-  ],
+  "framework": "create-react-app",
+  "buildCommand": "CI=false npm install && CI=false npm run build",
+  "outputDirectory": "build",
   "routes": [
     {
       "src": "/static/(.*)",
