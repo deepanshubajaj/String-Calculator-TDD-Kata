@@ -1,6 +1,11 @@
 <h1 align="center">🧮 String Calculator - TDD Kata</h1>
 
 <p align="center">
+  <a href="https://string-calculator-tdd-kata-three.vercel.app/"><strong>Live Demo</strong></a>   •   
+  <a href="https://contact-form-react-sepia.vercel.app/"><strong>Contact Me</strong></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/react-18.x-blue" alt="React Badge" />
   <img src="https://img.shields.io/badge/typescript-5.x-blueviolet" alt="TypeScript Badge" />
   <img src="https://img.shields.io/badge/methodology-TDD-red" alt="TDD Badge" />
@@ -46,12 +51,14 @@ Each enhancement is introduced via a failing test ➡️ implementation ➡️ r
 
 ## 📁 Project Structure
 
+```plaintext
 src/
 ├── calculator/
 │   ├── stringCalculator.ts        // Core logic
 │   └── stringCalculator.test.ts   // Unit tests (Jest)
 ├── App.tsx
 └── ...
+```
 
 ---
 
