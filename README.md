@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/tested_with-jest-99424f" alt="Jest Badge" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License Badge" />
   <img src="https://img.shields.io/github/last-commit/deepanshubajaj/StringCalculator-TDD-Kata" alt="Last Commit" />
-  <img src="https://img.shields.io/github/stars/deepanshubajaj/StringCalculator-TDD-Kata?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/stars/deepanshubajaj/String-Calculator-TDD-Kata?style=social" alt="GitHub Stars" />
 </p>
 
 **String Calculator TDD Kata** is a React + TypeScript implementation of the classic String Calculator exercise using **Test-Driven Development**.  
@@ -215,168 +215,88 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 
 ## 🖼️ Screenshots:
 
+Snapshots representing each mentioned step above:
+
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/SScreen5.jpg" alt="Splash Screen 0D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im1a.png" alt="Image1"  />
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/SScreen1.jpg" alt="Splash Screen 1D" width="30%" />
-  <img src="ProjectOutputs/WorkingVideo/SplashScreenDVideo.gif" alt="Splash ScreenD" width="30%" />
-  <img src="ProjectOutputs/Snapshots/SScreen2.jpg" alt="Splash Screen 2D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im2a.png" alt="Image1"  />
 </p>
 
 <p align="center">
-  *Splash screen displayed upon app launch in Dark Mode.*
-</p>
-
-
-##
-
-<p align="center">
-  <img src="ProjectOutputs/Snapshots/SScreen6.jpg" alt="Splash Screen 0B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im3a.png" alt="Image1"  />
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/SScreen3.jpg" alt="Splash Screen 1B" width="30%" />
-  <img src="ProjectOutputs/WorkingVideo/SplashScreenBVideo.gif" alt="Splash ScreenB" width="30%" />
-  <img src="ProjectOutputs/Snapshots/SScreen4.jpg" alt="Splash Screen 2B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im4a.png" alt="Image1"  />
 </p>
 
 <p align="center">
-  *Splash screen displayed upon app launch in Bright Mode.*
+  <img src="ProjectOutputs/Snapshots/im5a.png" alt="Image1"  />
 </p>
 
-
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenD1.jpg" alt="Main Screen 1D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD2.jpg" alt="Main Screen 2D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD3.jpg" alt="Main Screen 3D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im6a.png" alt="Image1"  />
 </p>
 
-##
+<p align="center">
+  <img src="ProjectOutputs/Snapshots/im7a.png" alt="Image1"  />
+</p>
 
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenD4.jpg" alt="Main Screen 4D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD5.jpg" alt="Main Screen 5D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD6.jpg" alt="Main Screen 6D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im8a.png" alt="Image1"  />
+</p>
+
+<p align="center">
+  <img src="ProjectOutputs/Snapshots/im9a.png" alt="Image1"  />
+</p>
+
+<p align="center">
+  *Screenshots in Dark Theme*
 </p>
 
 ##
 
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenD7.jpg" alt="Main Screen 7D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD8.jpg" alt="Main Screen 8D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD9.jpg" alt="Main Screen 9D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im1b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenD10.jpg" alt="Main Screen 10D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD11.jpg" alt="Main Screen 11D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD11b.jpg" alt="Main Screen 11bD" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im2b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenD11b.jpg" alt="Main Screen 11bD" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD12.jpg" alt="Main Screen 12D" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenD13.jpg" alt="Main Screen 13D" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im3b.png" alt="Image1"  />
 </p>
 
-
 <p align="center">
-  *Screenshots of the MemoRise App showing different screens in Dark Mode*
+  <img src="ProjectOutputs/Snapshots/im4b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenB1.jpg" alt="Main Screen 1B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB2.jpg" alt="Main Screen 2B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB3.jpg" alt="Main Screen 3B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im5b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenB4.jpg" alt="Main Screen 4B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB5.jpg" alt="Main Screen 5B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB6.jpg" alt="Main Screen 6B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im6b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenB7.jpg" alt="Main Screen 7B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB8.jpg" alt="Main Screen 8B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB9.jpg" alt="Main Screen 9B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im7b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenB10.jpg" alt="Main Screen 10B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB11.jpg" alt="Main Screen 11B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB11b.jpg" alt="Main Screen 11bB" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im8b.png" alt="Image1"  />
 </p>
 
-##
-
 <p align="center">
-    <img src="ProjectOutputs/Snapshots/mainScreenB11b.jpg" alt="Main Screen 11bB" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB12.jpg" alt="Main Screen 12B" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreenB13.jpg" alt="Main Screen 13B" width="30%" />
+  <img src="ProjectOutputs/Snapshots/im9b.png" alt="Image1"  />
 </p>
 
-
 <p align="center">
-  *Screenshots of the MemoRise App showing different screens in Bright Mode*
-</p>
-
-## 🌄 Functionalities Demo:
-
-<table style="width:100%">
-  <tr>
-    <th>Creating New List</th>
-    <th>Creating New Item in List</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/3a9c5c62-0259-44dc-ba95-5c76d5dce5cf" width="180" /></td> 
-    <td><video src="https://github.com/user-attachments/assets/83dd8ba6-7713-417c-a7ef-126c9c11c572" width="180"/></td> 
-  </tr>
-  
-  <tr>
-    <th>Editing & Scheduling Reminder</th>
-    <th>Searching for an Item</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/3e36b868-43e1-4e6e-9328-e8bcca5b3f56" width="180" /></td> 
-    <td><video src="https://github.com/user-attachments/assets/25e9b0de-2b91-4833-94e6-97c3fa62012b" width="180"/></td> 
-  </tr>
-  
-  <tr>
-    <th>Marking and Item as Complete</th>
-    <th>Reminder Notification</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/f423d141-7045-492b-99fa-9811eadeb436" width="180" /></td> 
-    <td><video src="https://github.com/user-attachments/assets/f0273e7f-1532-4de0-9edd-d91359213797" width="180" /></td> 
-  </tr>
-</table>
-
----
-
-## 📱 App Icon:
-
-<p align="center">
-  <img src="ProjectOutputs/Snapshots/appIcon.png" alt="App Icon" width="30%" />
-</p>
-<p align="center">
-  *The App Icon reflects the MemoRise Look*
+  *Screenshots in Light Theme*
 </p>
 
 ---
