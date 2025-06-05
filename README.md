@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/methodology-TDD-red" alt="TDD Badge" />
   <img src="https://img.shields.io/badge/tested_with-jest-99424f" alt="Jest Badge" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License Badge" />
-  <img src="https://img.shields.io/github/last-commit/deepanshubajaj/StringCalculator-TDD-Kata" alt="Last Commit" />
+  <img src="https://img.shields.io/github/last-commit/deepanshubajaj/String-Calculator-TDD-Kata" alt="Last Commit" />
   <img src="https://img.shields.io/github/stars/deepanshubajaj/String-Calculator-TDD-Kata?style=social" alt="GitHub Stars" />
 </p>
 
