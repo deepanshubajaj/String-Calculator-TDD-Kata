@@ -305,7 +305,7 @@ Snapshots representing each mentioned step above:
 
 Here’s a short video showcasing the app's functionality in Dark & Bright Mode:
 
-[Watch the Working Demo - Dark Theme](https://github.com/user-attachments/assets/69704f3d-a9fc-456d-81b4-2697cc8f2d03)
+[Watch the Working Demo - Dark Theme](https://github.com/user-attachments/assets/ef4a97bf-8464-4c99-8461-f9c3a49e0277)
 
 ##
 
