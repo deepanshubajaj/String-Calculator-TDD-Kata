@@ -20,7 +20,7 @@ Each enhancement is introduced via a failing test ➡️ implementation ➡️ r
 
 ---
 
-## ✨ Features
+## ✨ Features:
 
 - ✅ Add empty string `""` ➝ returns `0`
 - ✅ Add single number `"1"` ➝ returns `1`
@@ -38,7 +38,7 @@ Each enhancement is introduced via a failing test ➡️ implementation ➡️ r
 
 ---
 
-## 🧪 Tech Stack
+## 🧪 Tech Stack:
 
 | Tech           | Description                  |
 |----------------|------------------------------|
@@ -49,7 +49,7 @@ Each enhancement is introduced via a failing test ➡️ implementation ➡️ r
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure:
 
 ```plaintext
 src/
@@ -62,7 +62,7 @@ src/
 
 ---
 
-## 🧠 TDD Workflow
+## 🧠 TDD Workflow:
 
 > Followed the classical TDD cycle:
 1. 🔴 Write a failing test
@@ -74,7 +74,7 @@ Every commit in this repo corresponds to a **single, passing test**.
 
 ---
 
-## 💡 Kata Guidelines
+## 💡 Kata Guidelines:
 
 - Start with the simplest test case (empty string)
 - Add functionality incrementally with tests first
@@ -84,7 +84,7 @@ Every commit in this repo corresponds to a **single, passing test**.
 
 ---
 
-## 🛠 Requirements
+## 🛠 Requirements:
 
 - Node.js ≥ 18.x
 - npm or Yarn
@@ -94,7 +94,7 @@ Every commit in this repo corresponds to a **single, passing test**.
 
 ---
 
-## ▶️ Getting Started
+## ▶️ Getting Started:
 
 To run this project locally:
 
@@ -113,7 +113,7 @@ To run this project locally:
 
 ---
 
-### 🖼️ Icon
+### 🖼️ Icon:
 
 <p align="center">
   <img src="ProjectOutputs/Snapshots/stringCalc.png" alt="Icon1" width="40%"  />
