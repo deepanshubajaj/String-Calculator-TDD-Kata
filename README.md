@@ -305,20 +305,17 @@ Snapshots representing each mentioned step above:
 
 Here’s a short video showcasing the app's functionality in Dark & Bright Mode:
 
-<p align="center">
-  <img src="ProjectOutputs/WorkingVideo/WorkingVideoD.gif" alt="Working App 1 - Dark Mode" width="30%" />
-  <img src="ProjectOutputs/WorkingVideo/WorkingVideoB.gif" alt="Working App 2 - Bright Mode" width="30%" />
-</p>
+[Watch the Working Demo - Dark Theme](https://github.com/user-attachments/assets/69704f3d-a9fc-456d-81b4-2697cc8f2d03)
 
+##
 
+[Watch the Working Demo - Light Theme](https://github.com/user-attachments/assets/0f8addae-f9cb-468a-9351-3f660009efc0)
 
-➤ <a href="ProjectOutputs/WorkingVideo/SplashScreenDVideo.MP4">🎬 Watch Splash Screen Video - [Dark Mode]</a>
+##
 
-➤ <a href="ProjectOutputs/WorkingVideo/SplashScreenBVideo.MP4">🎬 Watch Splash Screen Video - [Bright Mode]</a>
+➤ <a href="ProjectOutputs/WorkingVideo/DT.mp4">🎥 Watch Working Video 1 - [Dark Mode]</a>
 
-➤ <a href="ProjectOutputs/WorkingVideo/WorkingVideoD.MP4">🎥 Watch Working Video 1 - [Dark Mode]</a>
-
-➤ <a href="ProjectOutputs/WorkingVideo/WorkingVideoB.MP4">🎥 Watch Working Video 2 - [Bright Mode]</a>
+➤ <a href="ProjectOutputs/WorkingVideo/LT.mp4">🎥 Watch Working Video 2 - [Light Mode]</a>
 
 ---
 
@@ -370,4 +367,4 @@ You are free to use this project for personal, educational, or commercial purpos
 
 ## 📃 Contact:
 
-You can reach out to me [here]().
+You can reach out to me [here](https://contact-form-react-sepia.vercel.app/).
