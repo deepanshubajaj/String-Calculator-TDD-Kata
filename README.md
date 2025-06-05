@@ -109,7 +109,7 @@ To run this project locally:
 ### 🖼️ Icon
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/logo3.png" alt="Icon1" width="40%"  />
+  <img src="ProjectOutputs/Snapshots/stringCalc.png" alt="Icon1" width="40%"  />
 </p>
 
 <p align="center">
@@ -123,7 +123,7 @@ To run this project locally:
 Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https://osherove.com/tdd-kata-1/).
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-1.jpg" alt="Image1"  />
 </p>
 
 <p align="center">
@@ -131,7 +131,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-2.jpg" alt="Image2"  />
 </p>
 
 <p align="center">
@@ -139,7 +139,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-3.jpg" alt="Image3"  />
 </p>
 
 <p align="center">
@@ -147,7 +147,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-4.jpg" alt="Image4"  />
 </p>
 
 <p align="center">
@@ -155,7 +155,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-5.jpg" alt="Image5"  />
 </p>
 
 <p align="center">
@@ -163,7 +163,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-6.jpg" alt="Image6"  />
 </p>
 
 <p align="center">
@@ -171,7 +171,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-7.jpg" alt="7"  />
 </p>
 
 <p align="center">
@@ -179,7 +179,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-8.jpg" alt="Image8"  />
 </p>
 
 <p align="center">
@@ -187,7 +187,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-9.jpg" alt="Image9"  />
 </p>
 
 <p align="center">
@@ -195,7 +195,7 @@ Also refer [here](https://blog.incubyte.co/blog/tdd-assessment/) & [here](https:
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/screenAbout.jpg" alt="Image1"  />
+  <img src="ProjectOutputs/Snapshots/Step-10.jpg" alt="Image10"  />
 </p>
 
 <p align="center">
