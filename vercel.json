@@ -14,7 +14,7 @@
     },
     {
       "src": "/favicon.ico",
-      "dest": "/stringCalc.png"
+      "dest": "favicon.ico"
     },
     {
       "src": "/manifest.json",
